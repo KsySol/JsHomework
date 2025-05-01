@@ -64,16 +64,16 @@ let tempVar = document.getElementById("input1").value;
 document.getElementById("input1").value = document.getElementById("input2").value;
 document.getElementById("input2").value = tempVar;
 
-//task 7 (work as separate file)
+//task 7
 
-// const main = document.createElement("main");
-// main.className = "mainClass check item";
-// const div = document.createElement("div");
-// div.id = "myDiv";
+const main = document.createElement("main");
+main.className = "mainClass check item";
+const divtask7 = document.createElement("div");
+divtask7.id = "myDiv";
 
-// const p = document.createElement("p");
-// p.textContent = "First paragraph";
+const p = document.createElement("p");
+p.textContent = "First paragraph";
 
-// div.appendChild(p);
-// main.appendChild(div);
-// document.body.appendChild(main);
+divtask7.appendChild(p);
+main.appendChild(divtask7);
+document.body.appendChild(main);
