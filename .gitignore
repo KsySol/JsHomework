@@ -1,0 +1,5 @@
+node_modules/
+/test-results/
+/blob-report/
+.env
+test-files/generated/
